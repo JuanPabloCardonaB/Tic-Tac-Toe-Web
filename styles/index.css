@@ -1,0 +1,51 @@
+.body{
+    background-color: rgb(25,27,30);
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.stats{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    height: 225px;
+    margin: auto;
+    color: white;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    color: rgb(38, 87, 50);
+    align-content: center;
+}
+
+.restart_button{
+    margin: 0 auto;
+    display: block;
+    width: 20%;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(169, 169, 169, 0);
+    border-color: white;
+    color: wheat;
+    text-align: center;
+}
