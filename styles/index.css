@@ -15,6 +15,12 @@
     color: white;
 }
 
+#GameBoard {
+
+    text-align: center;
+    
+}
+
 .board{
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -41,11 +47,10 @@
 .restart_button{
     margin: 0 auto;
     display: block;
-    width: 20%;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(169, 169, 169, 0);
     border-color: white;
-    color: wheat;
+    color: white;
     text-align: center;
 }
